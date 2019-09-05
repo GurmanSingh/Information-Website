@@ -63,24 +63,36 @@ ul li.active a{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-.button{
+button{
 	position: absolute;
 	top: 55%;
-	left: 43%;
+	left: 48%;
 	transform: translate(-50%,-50%;);
 }
 
-.btn{
+button{
+	background-color: transparent;
+	color: #000;
 	border: 1px solid #fff;
-	padding: 10px 30px;
-	color: #fff;
-	text-decoration: none;
+	padding: 15px 35px;
+	border-radius: 6px;
+	color: #F5F5DC;
 	transition: 0.5s ease; 
 	font-family: sans-serif;
-
 }
 
-.btn:hover{
-	background-color: #fff;
-	color: #000;
+button:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: #F5F5DC;
+}
+
+.video{
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
