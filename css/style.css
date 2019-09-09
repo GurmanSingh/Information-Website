@@ -86,7 +86,7 @@ button:hover{
 	color: #F5F5DC;
 }
 
-.video{
+#popup{
 	background-color: rgba(0,0,0,0.8);
 	position: absolute;
 	top: 0;
@@ -95,4 +95,6 @@ button:hover{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color: #fff;
+	display: none;
 }

@@ -21,20 +21,16 @@
 		</ul>
 	</div>
 	<div class="title">
-			<h1>QUEENSTOWN</h1>
-		</div>
-
-	<button>WATCH VIDEO</button>
-	<div class="video video--hidden">
-
-	<video height="auto" controls="controls" onclick="this.play()">
-		<source src="video.mp4" type="video/mp4">
-
-	</video>
+			<h1>QUEENSTOWN</h1>	
 	</div>
 
+	<button onclick="document.getElementById('popup').style.display='block'">WATCH VIDEO</button>
 
-		
+	<div id="popup">
+		I am a pop up
+		<button onclick="document.getElementById('popup').style.display='none'">Hide</button>
+	</div>
+
 </header>
 </body>
 </html>
