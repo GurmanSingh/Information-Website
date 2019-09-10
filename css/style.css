@@ -98,3 +98,8 @@ button:hover{
 	color: #fff;
 	display: none;
 }
+
+#video{
+max-width: 75%; 
+margin: 0 auto;
+}
