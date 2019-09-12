@@ -3,6 +3,13 @@
 	font-family: sans-serif;
 }
 
+.logo img{
+	float: left;
+	width: 300px;
+	height: auto; 
+	padding: 20px;
+}
+
 h1{
 	color: white;
 	position: absolute;
